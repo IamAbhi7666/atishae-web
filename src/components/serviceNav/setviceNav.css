@@ -1,0 +1,47 @@
+.header {
+    background-image: url(../images/menu-bg.jpg);
+    background-repeat: no-repeat;
+    height: 140px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  .center {
+   position: absolute;
+   left: 50%;
+   top: 66%;
+   transform: translate(-50%, -50%);
+  }
+  .work{
+    position: absolute;
+    left: 64px;
+    top: 20px;
+    transform: translate(-50px, -50px);
+  }
+  
+  .row, .row::after, .row::before{
+    clear: both;
+    display: table;
+    width: 100%;
+  }
+  .col-6, .col-5, .col-4, .col-12 {
+    float: left;
+    padding: 0px 15px;
+  }
+  .col-12{
+    width: 100%;
+  }
+  .col-6{
+    width: 50%;
+  }
+  .col-5 {
+    width: calc((100% / 12) * 5);
+  }
+  .col-4{
+    width: calc((100% / 12) * 4);
+  }
+  .mb-5 {
+    margin-bottom: 3rem!important;
+  }
